@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Yetkilendirme"
+AuthUserFile "/home/yozgattelefontamiri.com/.htpasswd"
+require valid-user
