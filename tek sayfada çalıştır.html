@@ -1,0 +1,25 @@
+<html>
+<body>
+<form action="" method="post">
+<p>Ad
+ı
+n
+ız: <input type="text" name="ad"></p>
+<p>Soyad
+ı
+n
+ız: <input type="text" name="soyad"></p>
+<p><input type="submit" name="dugme"></p>
+
+</form>
+
+
+<?php
+if(isset($_POST["dugme"])){
+$kullaniciAdi = $_POST['ad'];
+$kullaniciSoyadi = $_POST['soyad'];
+echo "Merhaba $kullaniciAdi $kullaniciSoyadi";
+}
+?>
+</body>
+</html>
